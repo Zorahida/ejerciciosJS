@@ -1,3 +1,3 @@
 const cars = ['Saab', 'Volvo', 'BMW'];
-cars.pop(Ford)
+cars.splice(0,1,"Ford")
 console.log(cars)
