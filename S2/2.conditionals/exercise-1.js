@@ -3,11 +3,11 @@
 
 const alumns = [{name: 'Pepe Viruela', T1: false, T2: false, T3: true}, {name: 'Lucia Aranda', T1: true, T2: false, T3: true}, {name: 'Abel Cabeza', T1: false, T2: true, T3: true}, {name: 'Alfredo Blanco', T1: false, T2: false, T3: false}, {name: 'Raquel Benito', T1: true, T2: true, T3: true}]
 
-let approved = (!true + false || true + true)
-let failed = (false + false)
-let T = ( += alumns.[T])
 
 for (let i = 0; i < alumns.length; i++) {
-    const element = alumns[i].T;
-    if {alumns[i] * T} == true}; (console.log(isApproved)
-    )   
+    const alumn = alumns[i];
+    const approve = (alumn.T1 ? 1 : 0) + (alumn.T2 ? 1 : 0) + (alumn.T3 ? 1: 0);
+    alumn.IsApproved = approve >= 2;
+
+    console.log(alumn)
+}

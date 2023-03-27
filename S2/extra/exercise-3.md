@@ -37,3 +37,6 @@ const users = [
     },
 ]
 ```
+const arraySonidos = [];
+const arrayObjetos = [];
+for
