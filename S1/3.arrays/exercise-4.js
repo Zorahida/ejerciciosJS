@@ -1,6 +1,6 @@
 const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
-rickAndMortyCharacters.pop("Morty", "Summer")
+rickAndMortyCharacters.push("Morty", "Summer")
+//console.log(rickAndMortyCharacters);
 
-rickAndMortyCharacters.lastIndexOf()
-rickAndMortyCharacters.slice(-1)
-console.log(rickAndMortyCharacters)
+const newArray = rickAndMortyCharacters.slice(-1);
+console.log(newArray)
